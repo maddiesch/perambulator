@@ -1,0 +1,12 @@
+---
+test_encrypted: !Encrypted AQICAHjwdQf1BpuL8E9uZtI6Mpx6jfIuNUHultdQftAf0REWRwHq7HPt5IbHm9kSrJhuDB1jAAAAaTBnBgkqhkiG9w0BBwagWjBYAgEAMFMGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM2ALnPtxsR-6sKmzEAgEQgCaZUF95UKC885X1F6QPmtVzm13XMisX_ZDiHQZ1BUZICL3BSzDa8w==
+test_remote: !Remote /perambulator/test/encrypted-string
+test_key: !Key /perambulator/test/string-value
+nested:
+  level_one: testing-value
+  level_two:
+    - StringOne
+    - StringTwo
+  level_three:
+    one: 1
+    two: 2

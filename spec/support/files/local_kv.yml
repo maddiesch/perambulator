@@ -1,0 +1,5 @@
+---
+perambulator:
+  test:
+    string-value: foo-bar-baz
+    encrypted-string: !TryEncrypted AQICAHjwdQf1BpuL8E9uZtI6Mpx6jfIuNUHultdQftAf0REWRwHq7HPt5IbHm9kSrJhuDB1jAAAAaTBnBgkqhkiG9w0BBwagWjBYAgEAMFMGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM2ALnPtxsR-6sKmzEAgEQgCaZUF95UKC885X1F6QPmtVzm13XMisX_ZDiHQZ1BUZICL3BSzDa8w==

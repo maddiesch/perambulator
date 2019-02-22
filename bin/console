@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'pry'
+require 'perambulator'
+
+Perambulator.configure do |config|
+  config.aws.credentials = Aws::SharedCredentials.new(profile_name: 'perambulator-test')
+  config.kms.key_arn = 'arn:aws:kms:us-east-1:646056346310:key/df369aa2-8da1-4516-9df6-243fb3543480'
+end
+
+Pry.start
